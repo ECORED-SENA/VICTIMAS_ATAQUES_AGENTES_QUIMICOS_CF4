@@ -1,0 +1,98 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  }, 
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","intro"],
+    "path": "pages/intro.html"
+  }, 
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "impacto",
+    "title": "1. Impacto psicológico",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "impacto",
+        "title": "1.1 Reacción a estrés agudo",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "impacto",
+        "title": "1.2 Proceso de duelo",
+        "anchor": "12"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "protocolo",
+    "title": "2. Protocolo de primeros auxilios psicológicos",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "protocolo",
+        "title": "2.1 Protocolo A,B,C,D,E para la aplicación de primeros auxilios psicológicos",
+        "anchor": "21"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "seguimiento",
+    "title": "3. Valoración y seguimiento por especialista en salud mental",
+    "breadcrumb": ["Inicio","Tema 3"],
+    "path": "pages/3-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "seguimiento",
+        "title": "3.1 Resolución 5521 de 2013. Art. 66 – 68",
+        "anchor": "31"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "seguimiento",
+        "title": "3.2 Constitución de un equipo de salud mental",
+        "anchor": "32"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "seguimiento",
+        "title": "3.3 Atención pre-alta",
+        "anchor": "33"
+      }
+     ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "sociofamiliar",
+    "title": "4. Apoyo sociofamiliar",
+    "breadcrumb": ["Inicio","Tema 4"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "sociofamiliar",
+        "title": "4.1 Acciones de acuerdo con el momento de la atención",
+        "anchor": "41"
+      }
+     ]
+  }
+]
